@@ -46,7 +46,7 @@ const Navbar = () => {
       <div className="flex">
         <NavButton title="Cart" customFunc={() => handleClick('cart')} color="blue" icon={<FiShoppingCart/>} />
         <NavButton title="Chat" dotColor="#03C9D7" customFunc={() => handleClick('chat')} color="blue" icon={<BsChatLeft/>} />
-        <NavButton title="Notifications" customFunc={() => handleClick('notification')} color="blue" icon={<RiNotification3Line/>} />
+        <NavButton title="Notification" customFunc={() => handleClick('notification')} color="blue" icon={<RiNotification3Line/>} />
         <TooltipComponent content="Profile" position="BottomCenter">
           <div 
             className="flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg"
